@@ -6,7 +6,7 @@ import "../styles/globals.css";
 import { AppProps } from "next/app";
 
 // This is the chainId your dApp will work on.
-const activeChainId = ChainId.Mumbai;
+const activeChainId = ChainId.Goerli;
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
