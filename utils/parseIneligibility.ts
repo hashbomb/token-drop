@@ -15,7 +15,7 @@ export function parseIneligibility(
     reason === ClaimEligibility.NoActiveClaimPhase ||
     reason === ClaimEligibility.NoClaimConditionSet
   ) {
-    return "This drop is not ready to be minted.";
+    return "Rewards are not ready to be minted.";
   } else if (reason === ClaimEligibility.NotEnoughTokens) {
     return "You don't have enough currency to mint.";
   } else if (reason === ClaimEligibility.AddressNotAllowed) {
